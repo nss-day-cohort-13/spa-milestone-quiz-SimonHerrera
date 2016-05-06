@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Maserati",
+      "model": "Birdcage",
+      "year": "2016",
+      "price": "2000000",
+      "color": "Silver",
+      "purchased": false,
+      "description": "This is an immaculate 2016 Maserati Birdcage with only 10 miles on it. Leather seats, and should inclide wings."
+    }
+    {
+      "make": "Bugatti",
+      "model": "Veyron",
+      "year": "2014",
+      "price": "1399000",
+      "color": "Black",
+      "purchased": false,
+      "description": "This is an immaculate 2014 Bugatti Veyron with only 1500 miles on it. Leather seats, and 1000 horsepower."
+    }
+    {
+      "make": "Porsche",
+      "model": "Spyder",
+      "year": "2015",
+      "price": "949000",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2015 Porsche Spyder with only 2500 miles on it. Leather seats, and drives like a dream."
+    }
+  ]
+}
