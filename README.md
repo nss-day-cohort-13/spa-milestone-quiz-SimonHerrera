@@ -75,7 +75,7 @@ You operate a used car lot, and need to have an application where you can update
 
 function populatePage (inventory) {
   // Loop over the inventory and populate the page
-  
+
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents();
 }
@@ -105,4 +105,3 @@ var CarLot = (function () {
   };
 
 })();
-```

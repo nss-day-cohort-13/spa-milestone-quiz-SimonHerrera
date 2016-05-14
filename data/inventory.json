@@ -1,31 +1,33 @@
-{
-  "cars": [
+{  "cars": [
     {
+      "url": "images/maserati.jpg",
       "make": "Maserati",
       "model": "Birdcage",
       "year": "2016",
-      "price": "2000000",
+      "price": "2,000,000",
       "color": "Silver",
-      "purchased": false,
-      "description": "This is an immaculate 2016 Maserati Birdcage with only 10 miles on it. Leather seats, and should inclide wings."
-    }
+      "available": "Yes",
+      "description": "This is an immaculate 2016 Maserati Birdcage with only 10 miles on it. The car comes with leather seats, and feels like it  should include wings."
+    },
     {
+      "url": "images/bugatti.jpg",
       "make": "Bugatti",
       "model": "Veyron",
       "year": "2014",
-      "price": "1399000",
+      "price": "1,399,000",
       "color": "Black",
-      "purchased": false,
-      "description": "This is an immaculate 2014 Bugatti Veyron with only 1500 miles on it. Leather seats, and 1000 horsepower."
-    }
+      "available": "Yes",
+      "description": "This is an immaculate 2014 Bugatti Veyron with only 1500 miles on it. Standard leather seats are included, and the engine is 1000 horsepower."
+    },
     {
+      "url": "images/porsche.jpg",
       "make": "Porsche",
       "model": "Spyder",
       "year": "2015",
-      "price": "949000",
+      "price": "949,000",
       "color": "FireBrick",
-      "purchased": false,
-      "description": "This is an immaculate 2015 Porsche Spyder with only 2500 miles on it. Leather seats, and drives like a dream."
+      "available": "Yes",
+      "description": "This is an immaculate 2015 Porsche Spyder with only 2500 miles on it. This car has Leather seats and drives like a dream."
     }
   ]
 }
