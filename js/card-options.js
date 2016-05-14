@@ -10,7 +10,7 @@ var CarLot = (function (loadCars) {
   loadCars.setFocus = function () {
     userInput.value = "";
     userInput.focus();
-  }
+  };
 
   //changes back to initial load border thickness and bgcolor
   loadCars.resetCard = function (clickEvent) {

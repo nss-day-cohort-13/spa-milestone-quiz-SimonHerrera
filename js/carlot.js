@@ -13,7 +13,7 @@ var CarLot = (function (loadCars) {
       CarLot.updateDOM(carSpecs.cars);
       inventory = carSpecs.cars;
       console.log("test", inventory );
-    }
+    };
 
   inventoryLoadRequest.addEventListener("load", loadCars.loadInventory)
   inventoryLoadRequest.open("GET", "/data/inventory.json");

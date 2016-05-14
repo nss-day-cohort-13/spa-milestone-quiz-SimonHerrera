@@ -18,14 +18,14 @@ var CarLot = (function (loadCars) {
       + `<h3>Car Still Available: ${inventory[i].available}</h3>`
       + `<img class='pics' src = "${inventory[i].url}"`
       + `</article>`;
-    }
+    };
 
     //Loop to apply the color from the inventory json description to the border
     for(j = 0; j < initBorderColor.length; j++) {
     initBorderColor[j].style.borderColor = `${inventory[j].color}`;
-    }
+    };
     loadCars.activateEvents();
-  }
+  };
 
   // Establishes all the event listeners
   loadCars.activateEvents = function(listeners) {
@@ -37,18 +37,18 @@ var CarLot = (function (loadCars) {
         CarLot.changeCardAttr(event.currentTarget);
         CarLot.setFocus();
       });
-    }
+    };
 
     //Listens for 'keyup' and replaces description on the DOM with keystrokes
     userInput.addEventListener('keyup', function(event) {
       activeCard.querySelector("h5").innerHTML = userInput.value;
-    })
+    });
 
     //Listens for 'click' and changes availability text on DOM
     availableUpdate.addEventListener('click', function(event) {
     activeCard.querySelector("h3").innerHTML = "Car No Longer Available";
     CarLot.setFocus();
-    })
+    });
   };
 
   return loadCars;
