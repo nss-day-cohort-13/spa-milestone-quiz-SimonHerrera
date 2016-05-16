@@ -3,7 +3,7 @@ var CarLot = (function (loadCars) {
 
   //Changes card border thickness and background color
   loadCars.changeCardAttr = function (clickEvent) {
-  clickEvent.classList.add("card-change"); //add class
+    clickEvent.classList.add("card-change"); //add class
   };
 
   //Blanks the User Input and then sets focus on that input box
@@ -15,9 +15,9 @@ var CarLot = (function (loadCars) {
   //changes back to initial load border thickness and bgcolor
   loadCars.resetCard = function (clickEvent) {
     var cards = document.querySelectorAll('.card-style');
-      for (i = 0; i < cards.length; i++) {
-        cards[i].classList.remove("card-change");
-      };
+    for (i = 0; i < cards.length; i++) {
+      cards[i].classList.remove("card-change");
+    };
   };
 
   return loadCars;

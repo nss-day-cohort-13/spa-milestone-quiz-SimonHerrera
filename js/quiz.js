@@ -22,7 +22,7 @@ var CarLot = (function (loadCars) {
 
     //Loop to apply the color from the inventory json description to the border
     for(j = 0; j < initBorderColor.length; j++) {
-    initBorderColor[j].style.borderColor = `${inventory[j].color}`;
+      initBorderColor[j].style.borderColor = `${inventory[j].color}`;
     };
     loadCars.activateEvents();
   };
@@ -46,8 +46,8 @@ var CarLot = (function (loadCars) {
 
     //Listens for 'click' and changes availability text on DOM
     availableUpdate.addEventListener('click', function(event) {
-    activeCard.querySelector("h3").innerHTML = "Car No Longer Available";
-    CarLot.setFocus();
+      activeCard.querySelector("h3").innerHTML = "Car No Longer Available";
+      CarLot.setFocus();
     });
   };
 
