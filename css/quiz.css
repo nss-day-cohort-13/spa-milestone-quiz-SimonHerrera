@@ -1,0 +1,36 @@
+/*----------Default Styling ------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+/*----------User Input Styling ------------*/
+.form-control {
+  width: 0px;
+  background-color: lightgray;
+  font-size: 1em;
+}
+
+/*----------Card Styling ------------*/
+.card-style {
+  background-color: lightgray;
+  height: 500px;
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.pics {
+  border-radius: 15px;
+}
+
+.card-change {
+  border-width: 5px;
+  background-color: gray;
+}
